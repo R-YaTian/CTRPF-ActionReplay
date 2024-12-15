@@ -85,8 +85,8 @@ exit:
 
     int     main(void)
     {
-        PluginMenu *menu = new PluginMenu("Action Replay", 0, 8, 0,
-                                            "A blank template plugin.\nGives you access to the ActionReplay and others tools.");
+        PluginMenu *menu = new PluginMenu("CTRPF Action Replay 插件", 0, 8, 0,
+                                            "由 CTRPF 框架为您提供\n金手指功能以及一些其他附加工具\n简体中文化: R-YaTian");
 
         // Synnchronize the menu with frame event
         menu->SynchronizeWithFrame(true);
