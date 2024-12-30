@@ -94,6 +94,9 @@ exit:
         // Init our menu entries & folders
         InitMenu(*menu);
 
+        FwkSettings &settings = FwkSettings::Get();
+        settings.CloseMenuWithB = true;
+
         // Launch menu and mainloop
         menu->Run();
 
